@@ -1,0 +1,111 @@
+/* esto es para cambiar el estilo de la letra*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+
+/*con el *{} se lo coloco a todo el documento*/
+* {}
+
+
+/*color de nabvar*/
+.navbar.bg-primary {
+    background-color: #4343a4 !important;
+    height: 8rem;
+}
+
+/*contenedor de redes*/
+.list-group.list-group-horizontal {
+    margin-top: -2rem;
+}
+
+.navbar-brand {
+    margin-top: -2rem;
+}
+
+/*redes*/
+i.fa-brands.fa-twitter.fa-2xl:hover {
+    color: #004cff;
+    transition: transform: 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+i.fa-brands.fa-facebook.fa-2xl:hover {
+    color: #0000ff;
+    transition: transform: 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+i.fa-brands.fa-linkedin.fa-2xl:hover {
+    color: #d900ff;
+    transition: transform: 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*ver si puedo agrandar el user*/
+i.fa-solid.fa-user-lock.fa-lg:hover {
+    color: #00ff84;
+    transition: transform: 0.3s ease-in-out;
+    transform: scale(1.25);
+
+}
+
+i.fa-solid.fa-user.fa-lg:hover {
+    color: #00ff84;
+    transition: transform: 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*nabvar*/
+/*fuente nabvar*/
+/*font-family: 'Roboto', sans-serif;*/
+
+section.info {
+    background-image: url(../img/sky-space-dark-galaxy.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    color: #7dc0c0;
+    font-family: cursive;
+
+}
+
+/*foto perfil*/
+.rounded-circle.w-75 {
+    margin-top: 5rem;
+    margin-left: 1rem;
+
+}
+
+/*fuente sobre mi*/
+h5.informacion {
+    margin-top: 8rem;
+    margin-left: 3rem;
+
+}
+
+/*banner educacion*/
+section.educacion {
+
+    margin-top: 2rem;
+    color: #f0ffff;
+}
+
+/*fuente educacionr*/
+h4.educacion {
+    color: #7dc0c0;
+    font-family: cursive;
+}
+
+/*estilos de dashboard*/
+
+.container-fluid.text-center {
+    margin-top: 4rem;
+}
+
+/* Estilos de Botones Guardar*/
+    {
+    margin-top: rem;
+}
+
+#nombre {
+    margin-top: 2.8rem;
+}
